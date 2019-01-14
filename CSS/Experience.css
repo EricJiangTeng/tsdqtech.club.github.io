@@ -1,0 +1,136 @@
+/*主页部分*/
+html,body,h1,h2,h3,p,ol,ul,li,a{
+    padding:0;
+    border:0;
+    margin:0;
+}
+
+.Experience_body{
+    background:white url("../Images/Index_BG.jpg") top left repeat;
+}
+
+/*10px补白背景颜色粉色*/
+.Experience_header{
+    background: #b56ab1 url("../Images/Experience_BG.jpg") top left repeat;
+    text-align: center;
+}
+
+/*20PX补白，白色*/
+.Experiences{
+    background-color: #e8fc76;
+    padding: 20px;
+    margin:30px 0 0 0;
+}
+
+
+.otherpages{
+    padding-left: 0;
+    color: white;
+
+}
+.otherpages li{
+    color: white;
+    display: inline-block;
+}
+
+
+.otherpages a{
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 30px;
+    font-family: 宋体;
+    padding:15px;
+    text-decoration: none;
+    color: #f7ff59;
+    /*margin: 10px;*/
+}
+
+
+.otherpages a:hover{
+    text-decoration: none;
+    color: #ff0e1a;
+}
+
+.Experience_body h1{
+    padding-left:0;
+    color: white;
+    font-size: 40px;
+    font-family: 楷体;
+    padding:25px 0 0 0;
+
+
+}
+
+/*获奖图片设置*/
+.Experiences img{
+    width:200px;
+    height: 150px;
+    float: left;
+    padding: 5px;
+    background-color: #f7ff59;
+    margin-right: 12px;
+}
+
+/*获奖文字设置*/
+.Experiences p{
+    margin-left: 222px;
+    /*隐藏多余文字*/
+    /*height: 91px;*/
+    /*overflow:hidden;*/
+}
+
+.clear{
+    clear: both;
+}
+/*菜单列表*/
+/*.Experiences{*/
+/*list-style-type: none;*/
+/*padding: 0;*/
+/*}*/
+/*边框添加*/
+.Experiences li{
+    list-style: none;
+    border:1px solid #373a2a;
+    padding: 15px;
+    /*height: 160px;*/
+    margin:15px 0;
+}
+
+.Experiences{
+    width: 70%;
+    padding:10px;
+    margin:0 auto 0 auto;
+    border: 1px solid #000000;
+}
+
+.Experiences h2{
+    color: #4e52dd;
+    font-size: 40px;
+    font-family: 微软雅黑;
+    text-align: center;
+}
+
+.Experiences h3{
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 30px;
+    font-family: 宋体;
+    padding:0 0 5px 0;
+    text-decoration: none;
+    color: #000000;
+}
+
+/*所经历比赛字体设置*/
+.Experiences a{
+    color: rgba(30, 31, 156, 0.94);
+    font-weight: bold;
+    font-size: 25px;
+    /*line-height: 10px;*/
+    font-family: "楷体";
+
+    text-decoration: none;
+}
+
+
+
+

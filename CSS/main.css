@@ -5,34 +5,84 @@ html,body,h1,h2,h3,p,ol,ul,li,a{
     margin:0;
 }
 
-.header{
+.Index_Body{
+    background: #828b27 url(../Images/Index_BG.jpg) top left repeat;
+}
+.Index_header{
     text-align: center;
-    /*margin:30px 180px 0 180px;*/
-    background: #828b27 url(../Images/Header1BG.jpg) top left repeat;
-    /*background-position: center;*/
+    padding:40px;
 }
 
-.header h1{
+.Index_Body h1{
+    /*font-style:italic;*/
+    /*padding: 30px 0 5px 0;*/
     color: #44fc3c;
-    padding: 30px;
-    /*border-width:5px;*/
-    /*border-style:solid;*/
-    /*border-color: #000000;*/
-    /*margin: 5px;*/
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 10px;
+    font-family: 宋体;
+    margin:20px;
+}
+
+.Index_Body h2{
+    color: #71fc47;
+}
+
+/*登陆条*/
+.login_bar{
+    position:fixed;
+    right:10px;
+    top:10px;
+    background-color: rgba(55, 58, 42, 0.75);
+    padding:5px;
+}
+
+.login_bar a{
+    color: #ffffff;
+    text-decoration: none;
+    background: url("../Images/QQWeibo.gif") 0 0 no-repeat;
+    padding-left: 29px;
+    height: 28px;
+    line-height: 28px;
+    display: inline-block;
+}
+
+.login_bar a.QQ_login{
+    background-position: 0 0px;
+}
+
+.login_bar a.Wb_login{
+    background-position: 0 -28px;
 
 }
 
-.header .otherpages a{
+.login_bar a:hover{
+    text-decoration: underline;
+        
+}
+
+/*图片设置*/
+.Index_header image{
+    text-align: center;
+
+}
+
+
+.Index_header .otherpages a{
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 30px;
+    font-family: 宋体;
     padding:15px;
     text-decoration: none;
     color: #f7ff59;
 }
 
-.header .otherpages a:hover{
-    text-decoration: underline;
+.Index_header .otherpages a:hover{
+    text-decoration: none;
     color: #ff0e1a;
 }
-.header .otherpages li{
+.Index_header .otherpages li{
     display: inline;
 
 }
